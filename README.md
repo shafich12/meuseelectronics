@@ -2,6 +2,8 @@
 
 Application Demo: https://youtu.be/JXmLw_rixkM 
 
+Documentation: https://drive.google.com/file/d/1BuTdOzRTGIqyRPSV8fyxrYwfBgtCCora/view?usp=sharing
+
 GitHub Repository: https://github.com/shafich12/meuseelectronics  
 
 APK download: https://drive.google.com/file/d/13TV94Ff5CKEnc8Nymm4TrwNED3kSqZ1n/view?usp=sharing 
