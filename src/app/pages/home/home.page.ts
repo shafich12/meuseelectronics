@@ -11,14 +11,7 @@ import { CartService } from '../../services/cart.service';
 export class HomePage implements OnInit {
 
   slidesOptions = {
-    // initialSlide: 0,
-    // direction: 'horizontal',
-    // speed: 300,
-    // spaceBetween: 8,
-    // slidesPerView: 1.5,
-    // freeMode: true,
-    // loop: true,
-    // autoplay:true
+
     initialSlide:0,
     speed:400,
     loop: true,

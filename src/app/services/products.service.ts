@@ -16,39 +16,17 @@ export class ProductsService {
 
   public getProducts(){
      
-    // const httpOptions = {
-    //   method: 'GET',
-    //   headers: new HttpHeaders({
-    //     Authorization: 'Bearer ' + this.token,
-    //   }),
-    // };
+
 
     return this.http.get(this.baseURL + '?orderby=popularity&order=desc', {}, {Authorization: 'Bearer ' + this.token})
 
 
-    // return this.http.get(this.baseURL + '?orderby=popularity&order=desc', httpOptions).pipe(
-    //   map((data: any) => {
-    //     return data
-    //   })
-    // )
   }
 
   public getCategories(){
 
-    // const httpOptions = {
-    //   method: 'GET',
-    //   headers: new HttpHeaders({
-    //     Authorization: 'Bearer ' + this.token,
-    //   }),
-    // };
 
     return this.http.get(this.baseURL + '/categories', {}, {Authorization: 'Bearer ' + this.token})
-
-    // return this.http.get(this.baseURL + '/categories', httpOptions).pipe(
-    //   map((data: any) => {
-    //     return data
-    //   })
-    // )
 
     
 
@@ -56,57 +34,28 @@ export class ProductsService {
 
   public getProduct(id){
 
-    // const httpOptions = {
-    //   method: 'GET',
-    //   headers: new HttpHeaders({
-    //     Authorization: 'Bearer ' + this.token,
-    //   }),
-    // };
+
 
     return this.http.get(this.baseURL + '/' +id, {}, {Authorization: 'Bearer ' + this.token});
 
-    // return this.http.get(this.baseURL + '/' +id, httpOptions).pipe(
-    //   map((data: any) => {
-    //     return data
-    //   })
-    // )
+
 
   }
 
   public getCategory(id){
-    // const httpOptions = {
-    //   method: 'GET',
-    //   headers: new HttpHeaders({
-    //     Authorization: 'Bearer ' + this.token,
-    //   }),
-    // };
+
 
     return this.http.get(this.baseURL + '/categories/' +id, {}, {Authorization: 'Bearer ' + this.token});
-
-    // return this.http.get(this.baseURL + '/categories/' +id, httpOptions).pipe(
-    //   map((data: any) => {
-    //     return data
-    //   })
-    // )
 
 
   }
 
   public getCategoryProducts(id){
-    // const httpOptions = {
-    //   method: 'GET',
-    //   headers: new HttpHeaders({
-    //     Authorization: 'Bearer ' + this.token,
-    //   }),
-    // };
+ 
 
     return this.http.get(this.baseURL + '?category=' +id, {}, {Authorization: 'Bearer ' + this.token});
 
-    // return this.http.get(this.baseURL + '?category=' +id, httpOptions).pipe(
-    //   map((data: any) => {
-    //     return data
-    //   })
-    // )
+
   }
 
   public searchProducts(search){
