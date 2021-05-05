@@ -2,6 +2,8 @@
 
 Application Demo: https://youtu.be/JXmLw_rixkM 
 
-Github Repository: https://github.com/shafich12/meuseelectronics  
+GitHub Repository: https://github.com/shafich12/meuseelectronics  
 
-Figma Prototype: https://www.figma.com/file/ajEUklFUV5BNW5bEiJJzH4/meuse-electronics-prototype?node-id=0%3A1  
+APK download: https://drive.google.com/file/d/13TV94Ff5CKEnc8Nymm4TrwNED3kSqZ1n/view?usp=sharing 
+
+Figma Prototype: https://www.figma.com/proto/Bl45JtnVFYruoHahBB1IwJ/meusefigma?node-id=91%3A274&scaling=min-zoom&page-id=28%3A9 
